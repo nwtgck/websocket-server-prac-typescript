@@ -7,11 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "serve": "node dist/main.js",
-    "start" : "npm run build && npm run serve"    
+    "start": "npm run build && npm run serve"
   },
   "author": "Ryo Ota",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^8.0.47",
     "typescript": "^2.6.1"
   }
 }
