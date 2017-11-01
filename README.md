@@ -1,4 +1,4 @@
-# Practice of HTTP server in TypeScript
+# Practice of WebSocket server in TypeScript
 
 ## How to run the server
 
