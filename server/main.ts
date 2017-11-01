@@ -7,6 +7,11 @@ const HTTP_PORT = 8080;
 
 const app = express();
 
+app.get('/', (req, res) => {
+    res.send('<h1>hello, world</h1>');
+});
+
+
 const server = http.createServer(app);
 
 const wss    = new WebSocket.Server({
