@@ -1,0 +1,17 @@
+{
+  "name": "http-server-prac-typescript",
+  "version": "0.1.0-SNAPSHOT",
+  "description": "Simple HTTP Server written in TypeScript",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "serve": "node dist/main.js",
+    "start" : "npm run build && npm run serve"    
+  },
+  "author": "Ryo Ota",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.6.1"
+  }
+}
