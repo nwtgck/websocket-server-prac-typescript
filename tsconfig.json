@@ -5,7 +5,8 @@
         "removeComments": true,
         "preserveConstEnums": true,
         "sourceMap": true,
-        "outDir": "dist"
+        "outDir": "dist",
+        "lib": ["es5", "es6"] // (from: https://stackoverflow.com/a/39418293/2885946)
     },
     "include": [
         "server/**/*"
